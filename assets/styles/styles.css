@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: black;
+}
+
+.primary-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 6%;
+    margin-left: 8%;
+    color: white;
+    padding: 18px;
+}
+
+.logo-nav{
+    height: 50px;
+}
+
+.list-navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+.list-navigation ul li{
+    margin-right: 25px;
+}
+
+
+.landing-page{
+    background-color: black;
+}
+
+.landing-content{
+    min-height: 87vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 8%;
+    margin-right: 8%;
+    justify-content: space-between;
+}
+
+.landing-intro{
+    text-align: center;
+}
+
+.landing-intro h1{
+    font-size: 80px;
+}
+
+.landing-intro p{
+    margin-bottom: 50px;
+    font-style: italic;
+}
+
+.button{
+    padding: 18px 35px 18px 35px;
+    background-color: brown;
+    border-radius: 10px;
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+.portofolio-page{
+    background-color: black;
+}
+
+.portofolio-content{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.portofolio-content h1{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-right: 50px;
+    color: white;
+    font-style: italic;
+}
+
+.card-body p{
+    text-align: justify;
+}
+
+.card{
+    margin-right: 30px;
+}
+
+.skills-page{
+    background-color: black;
+    min-height: 120vh;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.skills-content h1{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-right: 50px;
+    color: white;
+    font-style: italic;
+}
+
+.list-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-logo{
+    width: 400px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    text-align: center;
+    margin-right: 3%;
+    color: white;
+}
+
+.learning-skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading-learning{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-style: italic;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.lala{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.experience-page{
+    background-color: black;
+    min-height: 120vh;
+}
+
+.list-experience{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: white;
+}
+
+.experience-content h1{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+.experience-organization{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+
+.experience-work{
+    display: flex;
+    align-items: center;
+}
+
+.heading-work{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+
+.heading-organization{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin-right: 50px;
+    color: white;
+    font-style: italic;
+}
+
+.list{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+}
+
+.footer-page{
+    font-style: italic;
+    padding: 15px;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.icons a{
+    text-decoration: none;
+    color: black;
+}
+
